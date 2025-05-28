@@ -23,7 +23,7 @@ const Profile = ({ navigation }) => {
     const [prefixValue, setPrefixValue] = useState(null);
     const [selectedPrefix, setSelectedPrefix] = useState('');
 
-    const [countryCode, setCountryCode] = useState('US')
+    const [countryCode, setCountryCode] = useState('US');
 
     const onSelectCountry = (country) => {
         setCountryCode(country.cca2);
@@ -32,7 +32,6 @@ const Profile = ({ navigation }) => {
     const handleGoBack = () => {
         //navigation.goBack();
     };
-
 
     const validateFields = () => {
         let isValid = true;
@@ -102,7 +101,6 @@ const Profile = ({ navigation }) => {
         }
     };
 
-    
     return (
         <ScrollView showsVerticalScrollIndicator={false} >
 

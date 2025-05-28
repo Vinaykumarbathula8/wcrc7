@@ -7,13 +7,12 @@ import {
 } from "native-base";
 import * as Device from 'expo-device';
 import AppNav from './src/comps/AppNav';
-// Define the config
+
 const config = {
     useSystemColorMode: false,
     initialColorMode: "dark"
 };
 
-// extend the theme
 export const theme = extendTheme({ config });
 
 export default function App() {
